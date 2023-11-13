@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+.sun{
+  display: inline;
+}
+.moon{
+  display: none;
+}
+p {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+} 
+
+.dark-mode li a  {
+  color: white;
+} 
+.dark-mode .logof{
+  color: white ;
+}
+  .dark-mode .sun{
+  display: none;
+}
+.dark-mode .moon{
+  display:inline;
+}
+
+/* nav active */
+.active, .btn1:hover {
+  border-bottom: 3px solid  rgb(55,106,85);
+  color: rgb(55,106,85) ;
+}
+
+/* pnav */
+ 
+.btnp:hover{
+  border: 1px dashed rgb(55,106,85);
+  color:hsl(155, 89%, 48%) ;
+}
+.btnp{
+  padding: 10px;
+}
+/* pnav */
+#firstul{
+  margin-left: 260px rgb(55,106,85);
+}
+#seculli{
+  margin-right: 290px;
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
+}
+#sbt{
+  background-color:rgb(55,106,85) ;
+  color:rgb(228,241,235);
+  border-radius: 100px;
+  width: 260px;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-top: 20px;
+}
+#simg2{
+  width: 100%;
+  margin-top: 150px; 
+  height: 500px;
+}
+
+#img3{
+  width:100%;
+  margin-top:100px; 
+  height:600px;
+  background-color:rgb(49,92,69);
+}
+
+#img1{
+  
+margin-left: 240px;
+padding-bottom: 8px;
+}
+
+#pro{
+  margin-top: 200px;
+  margin-left: 40px;
+}
+#pronav{
+  margin-left: 40px;
+  margin-top: 50px;
+
+}
+.filter{
+  display: none; 
+}
+
+.show {
+  display: block; 
+}
+
+#proimg{
+  padding-top: 25px;
+}
+#h1{
+  text-align: center;
+  margin-bottom:20px ;
+  font-size:3rem;
+}
+
+ 
+#proulli  {
+  border:1px solid #0e0e0e;;
+  box-sizing: border-box;
+}
+#proul>li{
+margin-left: 10px;
+}
+ /* footer */
+#footer2{
+  background-color: rgb(55,120,85);
+  text-align: center;
+  text-align: justify;
+  padding: 10px;
+
+}
+   #footerlast1{
+text-align: center;
+padding-left: 100px;
+   }
+   /* Team Section */
+#Section6 {
+  text-align: center;
+}
+
+#heads {
+  padding: 15px;
+}
+
+.dot {
+  text-align: center;
+}
+
+.card1 {
+  margin-top: 20px;
+}
+
+.card1-body {
+  padding: 20px;
+  border: hidden;
+}
+
+.teamimg1 {
+  border-radius: 50%;
+}
+.dot-item {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color:#ebe7e7;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ;
+}
+
+.dot-item.active, .dot-item:hover {
+  background-color: rgb(55,120,85);
+}
+
+
+
+  /* section 5 */
+  #qa{
+    background-color:rgb(55,106,85) ;
+    margin-top: 200px;
+    height:800px ; 
+  }
+  #one{
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .answer {
+    display: none;
+    height: 100px;
+  }
+  
+  .col.expanded {
+    background-color:rgb(140, 190, 169);
+  }
+  
+  .col.expanded .answer {
+    display: block;
+  }
+   /* section 5 end */
+   /* map */
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+   /* contact */
+   #contactus {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#onec {
+    width: 20%;
+    padding: 40px;
+    height:460px ;
+   margin-left: 100px;
+}
+
+#form {
+    padding: 40px;
+    width: 30%;
+    margin-right: 200px;
+}
+
+label, input, textarea, button {
+    margin: 10px 0;
+    display: block;
+    border-top:none ;
+    border-left: none;
+    border-right:none ;
+}
+
+input,textarea {
+    width: 60%;
+    height: 30px;
+}
+#sub {
+  margin-left: 300px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(55,106,85);
+}
+#validationMessage {
+    color:rgb(55,106,85);
+    margin-top: 10px;
+}
