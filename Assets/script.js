@@ -28,7 +28,7 @@ for (var i = 0; i < btns.length; i++) {
 //imgzoom
 function imagein(x) {
   x.style.height = "500px";
-  x.style.width = "80%px";
+  x.style.width = "80%";
 }
 
 function imageout(x) {
@@ -111,17 +111,15 @@ function currentSlide(n) {
 showSlides(slide);
 // footer
 function subscribe() {
-  var email = document.getElementById('emailInput').value;
   document.getElementById('message1').style.display = 'block';
   setTimeout(function() {
     document.getElementById('message1').style.display = 'none';
 
     //  404 error page
-    var page = window.open('', '_blank');
+    var page = window.open('', '_self');
     page.document.write('<h1>404 Error: Page not found</h1>' );
-    page.document.write('<button><a href="index.html">home</a></button>');
-    
-  }, 2000); 
+    page.document.write('<button><a href="index.html" target="_self">home</a></button>');
+  },2000); 
 }
 // map
 function initMap() {
