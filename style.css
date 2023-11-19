@@ -2,9 +2,9 @@
   box-sizing: border-box;
 font-family: 'Times New Roman', Times, serif;
 }
-.sun{
+/* .sun{
   display: inline;
-}
+} */
 .moon{
   display: none;
 }
@@ -34,7 +34,6 @@ p {
 /* nav active */
 .active, .btn1:hover {
   border-bottom: 3px solid  rgb(55,106,85);
-  color: rgb(55,106,85) ;
 }
 
 /* pnav */
@@ -98,7 +97,8 @@ padding-bottom: 8px;
 }
 
 .show {
-  display: block; 
+  display:inline; 
+
 }
 
 #proimg{
